@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Koburger</title>
+    <!-- Icon Support -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./image/favicon.png"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- JS -->
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Koburger</h1>
+
+    <main class="center">
+        <section id="controlls">
+            <p>Total price is: <span id="price">5</span>$</p>
+            <br/>
+            <div>
+                <button onclick="addBurger()">Add burger</button>
+                <img id="middleBurger" src="./image/meat.png" alt="burger"/>
+                <button onclick="removeBurger()">Remove burger</button>
+      
+            </div>
+            <br/>
+            <div>
+                <button onclick="addLettuce()">Add lettuce</button>
+                <img id="middleBurger" src="./image/lettuce.png" alt="lettuce"/>
+                <button onclick="removeLettuce()">Remove lettuce</button>
+      
+            </div>
+            <br/>
+            <div>
+                <button onclick="addTomato()">Add tomato</button>
+                <img id="middleBurger" src="./image/tomato.png" alt="tomato"/>
+                <button onclick="removeTomato()">Remove tomato</button>
+            </div>
+            <br/>
+            <div>
+                <button onclick="addVegetarian()">Add vegetarian</button>
+                <img id="middleBurger" src="./image/vegetarian.png" alt="vegetarian"/>
+                <button onclick="removeVegetarian()">Remove vegetarian</button>
+            </div>
+        </section>
+    
+        <section id="ingridiance">
+          <img src="./image/bun-top.png" alt="bun-top" />
+    
+          <div id="burgers" class="colum"></div>
+    
+          <div id="lettuces" class="colum"></div>
+
+          <div id="tomatos" class="colum"></div>
+
+          <div id="vegetarians" class="colum"></div>
+    
+          <img src="./image/bun-b.png" alt="bun-b" />
+        </section>
+    </main>
+
+  </body>
+</html>

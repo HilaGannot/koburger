@@ -1,0 +1,44 @@
+#ingridiance{
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+}
+p {
+    color: white;
+}
+
+
+body {
+    background: url("./image/background.jpg") no-repeat center center fixed;
+    background-size: cover; 
+    /* height: 100vh; */
+  
+}
+
+img{
+    width: 200px;
+}
+
+#middleBurger{
+    width: 90px;
+}
+
+.colum{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#controlls {
+    margin-right: 25px;
+}
+
